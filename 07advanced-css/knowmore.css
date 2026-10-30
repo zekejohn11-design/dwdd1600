@@ -12,6 +12,13 @@ header {
     text-align: center;
 }
 
+.MR {
+    width: 98%;
+    height: auto;
+    text-align: center;
+}
+
+
 header span {
     color: white;
     font-size: 24px;
@@ -51,11 +58,11 @@ nav ul li a {
 nav li.active a {
     background-color: #da9a19;
     text-align: center;
-
 }
 
 nav a:hover {
     background-color: #da9a19;
+    text-align: center;
 }
 
 /*Main content stuff here*/
@@ -63,65 +70,49 @@ main {
     padding: 20px;
 }
 
-.MR {
-    width: 98%;
-    height: auto;
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
     text-align: center;
-
-}
-
-.mrblkhoodie {
-    width: 98%;
-    height: auto;
-    text-align: center;
-    flex-wrap: wrap;
-    display: block 
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#da9a19
    
-
 }
 
-.mrpnkhoodie {
-    width: 98%;
-    height: auto;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
 
 
-}
 
-.mrblkshrt {
-    width: 98%;
-    height: auto;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.mrkorngshrt {
-    width: 98%;
-    height: auto;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.mrblkhoodie .mrpnkhoodie .mrblkshrt .mrkorngshrt img:hover {   
-   width: 98%;
-   height: auto;
-    box-shadow: 0 0 10px #000000;
+img:hover {   
+    box-shadow: 0 0 10px #da9a19;
 }   
 
- 
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+    Background-color: #da9a19;
+}
+
 
 
 
 /*Footer stuff here*/
 footer {
-    background-color: #606060;
+    background-color: #757575;
     color: white;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+    width: 98%;
+    height: auto;
 }
 
 main h1 {
@@ -142,27 +133,32 @@ main ol {
     margin-bottom: 20px;
     line-height: 1.6;
     background-color: #cdcdcd;
+    text-align: center;
 }
 
 main dl dt {
     color: #da9a19;
+    text-align: center;
 }
 
 main dl dd {
     margin-bottom: 20px;
     line-height: 1.6;
+    text-align: center;
 }
 
 main ul li {
     margin-bottom: 20px;
     line-height: 125%;
     font-size: .9rem;
+    text-align: center;
 }
 
 
 main strong {
     font-weight: 700;
     color: #000000;
+    text-align: center;
 }
 
 main address {
