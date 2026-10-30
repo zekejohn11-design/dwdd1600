@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Mr. Knowmore loves meeting knew people and can't wait for you to say hi by buying the coolest and comfiest hoodies and shirts around.">
+    <meta name="author" content="Zeke Lyman">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="knowmore.css">
+    <title>Mr. Knowmore</title>
+</head>
+
+<body>
+    <!-- start the page header -->
+    <header>
+        <img src="mr k photos/Mr Knowmore X12.webp" alt="Mr. Knowmore Logo" width="50" height="50">
+        <span>Mr. Knowmore</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop All</a></li>
+            <li class="active"><a href="delivery.html">Delivery</a></li>
+        </ul>
+    </nav>
+
+    <!-- start the page main -->
+    <main>
+        <h1>Delivery</h1>
+        <p>Mr. Knowmore offers fast and reliable delivery options for all your shopping needs.</p>
+    </main>
+
+    <main>
+        <h1>Request a Delivery</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+
+                <legend>Customer Information</legend>
+
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="Phone" required placeholder="000-000-0000"></label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Delivery MethodInformation</legend>
+                <label><input type="radio" name="method" value="drone" required> Drone Delivery (2hrs)</label>
+                <label><input type="radio" name="method" value="courier" required> Courier Delivery (4hrs)</label>
+                <label><input type="radio" name="method" value="express" required> Express Delivery (1hr)</label>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="porch" value="chosen" required> Front Porch</label>
+                <label><input type="checkbox" name="backporch" value="chosen" required> Back Porch</label>
+                <label><input type="checkbox" name="garage" value="chosen" required> Garage</label>
+                <label><input type="checkbox" name="frontporch" value="chosen" required> Front Porch</label>
+
+                
+                <label>
+                <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Between 8am and 12pm</option>
+                    <option value="afternoon">Between 12pm and 4pm</option>
+                    <option value="evening">Between 4pm and 8pm</option>
+                </select>
+                </label>
+
+            </fieldset>
+
+            <label>
+            <textarea placeholder="Comments" name="comments"></textarea>
+            </label>
+
+
+            <input type="submit" value="Send Delivery request">
+        </form>
+
+
+
+    </main>
+
+
+
+       
+
+   
+
+
+        <!-- start the page footer -->
+        <footer>
+            <p>&copy; 2026 Mr. Knowmore &bull; Zeke Lyman &bull; Web Essentials</p>
+        </footer>
+</body>
+
+</html>
