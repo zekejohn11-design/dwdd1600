@@ -67,6 +67,10 @@ main h2 {
     color: #da9a19;
 }
 
+main h3 {
+    color: #da9a19;
+}
+
 main p { 
     margin-bottom: 20px;
     line-height: 1.6;   
