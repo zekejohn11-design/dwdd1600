@@ -91,6 +91,7 @@ img:hover {
 div.gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 figcaption {
