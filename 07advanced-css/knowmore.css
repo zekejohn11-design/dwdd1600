@@ -68,6 +68,11 @@ nav a:hover {
 /*Main content stuff here*/
 main {
     padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+
 }
 
 
@@ -197,15 +202,15 @@ main address {
     font-style: normal;
     width: 100%;
     padding: 8px;
-    background-color: #da9a19;
     text-align: center;
-    color: white;
+    color: #da9a19;
     font-size: 1.5rem;
 }
 
 main a {
     color: rgb(26, 34, 255);
     text-decoration: none;
+    
 }
 
 main a:hover {
