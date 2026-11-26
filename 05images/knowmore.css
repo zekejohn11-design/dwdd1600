@@ -59,8 +59,13 @@ main {
 
 div.poster {
     width: 50%;
-    height: auto;
     float: right;
+    margin: 0
+}
+
+div.poster img {
+    width: 100%;
+    height: auto
 }
 
 /**image stuff here**/
