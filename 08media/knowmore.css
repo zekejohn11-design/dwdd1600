@@ -69,6 +69,10 @@ nav a:hover {
 main {
     padding: 20px;
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+
 }
 
 p {
@@ -85,8 +89,16 @@ div.poster {
     width: 50%;
     height: auto;
     float: right;
-    padding: 20px;
+    margin: 7px;
 }
+
+div.poster img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 
 div.posters {
     display: flex;
@@ -183,9 +195,8 @@ main strong {
 
 main address {
     font-style: normal;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
+    width: 100%;
+    padding: 8px;
     text-align: center;
     color: #da9a19;
     font-size: 1.5rem;
