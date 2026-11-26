@@ -64,11 +64,10 @@ div.poster {
 }
 
 /**image stuff here**/
-div.image-grid {
+div.clothes {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+    justify-content: center;
 
 }
 
