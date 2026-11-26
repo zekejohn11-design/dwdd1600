@@ -164,14 +164,12 @@ main strong {
 
 main address {
     font-style: normal;
-    margin-bottom: 20px;
-    line-height: 1.6;
+    width: 100%;
+    padding: 8px;
     background-color: #da9a19;
-    border-radius: 10px;
-    padding: 5px;
-    border: 1px solid #000000;
-    width: 200px;
-
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
 }
 
 main a {
@@ -186,4 +184,9 @@ main a:hover {
 
 main a:hover {
     text-decoration: underline;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
 }
